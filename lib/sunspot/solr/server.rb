@@ -170,8 +170,8 @@ module Sunspot
       #
       # Boolean:: success
       #
-      def install_solr_home
-        unless File.exists?(solr_home)
+      def install_solr_home 
+        unless File.exists?(solr_home) && File.exists?("#{solr_home}/conf")
           Sunspot::Solr::Installer.execute(
             solr_home,
             :force => true,

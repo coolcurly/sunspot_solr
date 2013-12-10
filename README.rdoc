@@ -1,3 +1,5 @@
+This is a fork of original sunspot gem: https://github.com/sunspot/sunspot
+
 = Sunspot::Solr
 
 Sunspot::Solr is a packaged distribution of Solr for use with the
